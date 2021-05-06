@@ -86,3 +86,12 @@ var gram = document.createElement("span");
 gram.innerHTML = "My Gram  ";
 
 div.appendChild(gram);
+
+var firstNumber = 1;
+var firstString = "a simple string";
+var firstBool = true;
+
+console.log(firstNumber);
+console.log(firstString);
+console.log(firstBool);
+
