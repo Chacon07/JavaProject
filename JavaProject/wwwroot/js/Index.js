@@ -95,3 +95,10 @@ console.log(firstNumber);
 console.log(firstString);
 console.log(firstBool);
 
+function Subtraction(a, b) {
+    var result = a - b;
+    console.log(result);
+}
+
+Subtraction(12, 8);
+
