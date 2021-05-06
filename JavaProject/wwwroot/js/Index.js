@@ -102,3 +102,17 @@ function Subtraction(a, b) {
 
 Subtraction(12, 8);
 
+var secondString = "Hello, this is a string  ";
+var result = secondString.substring(0, 3);
+
+console.log(result.trim());
+
+var d = new Date();
+
+var dateType = (d.getMonth() + 1).toString().padStart(2, "0")
+    + "/" + d.getDate().toString().padStart(2, "0") + "/" + d.getFullYear();
+
+console.log(dateType);
+
+var b = new Date(2000, 4, 7);
+document.write(b.toLocaleString("ru-RU"));
